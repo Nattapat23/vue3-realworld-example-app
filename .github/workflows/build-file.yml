@@ -28,3 +28,4 @@ jobs:
                 port: ${{ secrets.SSH_PORT}}
                 source: "./dist/*"
                 target: "/var/www/html"
+                strip_components: true
