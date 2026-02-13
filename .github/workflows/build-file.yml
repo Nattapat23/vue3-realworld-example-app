@@ -26,5 +26,5 @@ jobs:
                 username: ${{ secrets.SSH_USER_NAME}}
                 key: ${{ secrets.SSH_KEY}}
                 port: ${{ secrets.SSH_PORT}}
-                source: "dist/*"
+                source: "./dist/*"
                 target: "/var/www/html"
